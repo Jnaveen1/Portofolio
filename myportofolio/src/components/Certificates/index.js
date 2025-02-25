@@ -23,7 +23,7 @@ const Certificates = () => {
   return (
     <div className="certificate-main-container">
         <Header />
-      <h2 className="text-2xl font-bold text-center mb-4">My Certifications</h2>
+      <h2 className="heading">My Certifications</h2>
       <div className="certificates-container gap-4">
         {photos.map((photo, index) => (
           <img

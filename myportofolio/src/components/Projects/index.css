@@ -1,5 +1,5 @@
 .projects-container {
-    padding: 20px;
+    padding: 0px;
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
@@ -59,4 +59,50 @@
 
 .project-link:hover {
     background-color: #0056b3;
+}
+
+
+@media (max-width: 481px) {
+
+    .projects-heading {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    .project-title {
+        font-size: 20px;
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+    
+    .project-description {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 15px;
+    }
+    
+}
+
+
+@media ((min-width : 481px) and (max-width: 768px)) {
+
+    .projects-heading {
+        font-size: 26px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    .project-title {
+        font-size: 22px;
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+    
+    .project-description {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 15px;
+    }
+    
 }

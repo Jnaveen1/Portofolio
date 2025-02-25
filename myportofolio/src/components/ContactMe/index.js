@@ -70,7 +70,7 @@ class Contact extends Component {
                         </p>
                         <p>
                             <FaLinkedin className='icon' />
-                            <a href='https://www.linkedin.com/in/venkata-naveen-kumar-janapati/' target='_blank' rel='noopener noreferrer' className='contact-link'>https://www.linkedin.com/in/venkata-naveen-kumar-janapati/</a>
+                            <a href='https://www.linkedin.com/in/venkata-naveen-kumar-janapati/' target='_blank' rel='noopener noreferrer' className='contact-link'>https://www.linkedin.com/in/....</a>
                         </p>
                     </div>
                     <form className='contact-form' onSubmit={this.onClickContactForm}>
