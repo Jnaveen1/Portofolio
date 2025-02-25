@@ -1,0 +1,94 @@
+
+ body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E0F7E0;
+    color: #2F4F4F;
+}
+
+.main-container {
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.profile-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 30px; /* Adds space between image and text */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #2F4F4F;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text-con {
+    max-width: 600px;
+    text-align: center;
+}
+
+.description {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.highlight {
+    color: #228B22; /* Adds a highlight color to your name */
+    font-weight: bold;
+}
+
+.cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #228B22;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #1E7A1E; /* Darker shade on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-con {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile {
+        height: 200px;
+        width: 200px;
+    }
+
+    .description {
+        font-size: 1.2rem;
+    }
+
+    .cta-button {
+        font-size: 0.9rem;
+    }
+}
+
+
+.link-btn{
+    text-decoration: none;
+    color: white;
+}

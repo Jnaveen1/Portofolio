@@ -1,0 +1,31 @@
+
+.header-con{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow effect
+    position: sticky;
+    top: 0;
+    z-index: 1000; */
+    margin-bottom: 30px;
+}
+
+.links-con{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+}
+
+.link{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+    text-decoration: none;
+}
