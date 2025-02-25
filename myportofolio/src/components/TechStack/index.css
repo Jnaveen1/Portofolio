@@ -1,0 +1,38 @@
+.tech-stack {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.tech-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.tech-grid {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.tech-icon {
+    font-size: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.tech-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Customize Colors */
+.react { color: #61DBFB; }
+.node { color: #3C873A; }
+.python { color: #FFD43B; }
+.database { color: #4DB33D; }
+.html { color: #E34C26; }
+.css { color: #264DE4; }
+.js { color: #F7DF1E; }

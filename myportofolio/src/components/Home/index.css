@@ -19,15 +19,15 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; /* Ensures responsiveness */
-    gap: 30px; /* Adds space between image and text */
+    flex-wrap: wrap; 
+    gap: 30px; 
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .profile {
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid #2F4F4F;
@@ -46,7 +46,7 @@
 }
 
 .highlight {
-    color: #228B22; /* Adds a highlight color to your name */
+    color: #228B22; 
     font-weight: bold;
 }
 
@@ -63,10 +63,9 @@
 }
 
 .cta-button:hover {
-    background-color: #1E7A1E; /* Darker shade on hover */
+    background-color: #1E7A1E; 
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .profile-con {
         flex-direction: column;
@@ -74,8 +73,8 @@
     }
 
     .profile {
-        height: 200px;
-        width: 200px;
+        height: 250px;
+        width: 250px;
     }
 
     .description {
@@ -91,4 +90,20 @@
 .link-btn{
     text-decoration: none;
     color: white;
+} 
+
+.description span {
+    opacity: 0;
+    animation: fadeIn 0.05s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

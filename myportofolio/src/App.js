@@ -5,6 +5,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import ContactMe from './components/ContactMe'
 import Certificates from './components/Certificates';
+import TechStack from './components/TechStack';
 
 function App() {
   return (

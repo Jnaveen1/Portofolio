@@ -8,7 +8,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     margin-bottom: 30px;
 }
-.heading{
+.por-heading{
     font-size: 25px;
 }
 
@@ -27,8 +27,8 @@
 }
 
 @media (max-width: 481px) {
-    .heading{
-        font-size: 13px;
+    .header-con .por-heading { 
+        font-size: 14px !important;  
     }
     .link{
         font-family: sans-serif;
@@ -42,12 +42,12 @@
     }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-    .heading {
-        font-size: 14px;
+    .header-con .por-heading {
+        font-size: 18px;
     }
     .link {
         font-size: 15px;
-        margin-left: 10px;
+        margin-left: 9px;
     }
     .header-con {
         padding: 8px 10px;
