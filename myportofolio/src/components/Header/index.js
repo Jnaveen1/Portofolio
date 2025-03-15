@@ -4,7 +4,7 @@ import './index.css' ;
 const Header = () => {
     return(
         <div className="header-con">
-            <h1 className='por-heading'>Portofolio</h1>
+            <h1> <Link to = "/" className='portfolio-link'>Portofolio</Link></h1>
             <div className="links-con">
                 <Link to = "/"  className='link'>
                     <p>Home</p>

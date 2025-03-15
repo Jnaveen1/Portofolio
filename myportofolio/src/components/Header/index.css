@@ -26,6 +26,11 @@
     text-decoration: none;
 }
 
+.portfolio-link{
+    font-size: 25px;
+    text-decoration: none;
+}
+
 @media (max-width: 481px) {
     .header-con .por-heading { 
         font-size: 14px !important;  
