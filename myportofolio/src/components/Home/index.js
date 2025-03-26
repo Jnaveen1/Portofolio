@@ -20,9 +20,10 @@ class Home extends Component {
                     />
                     <div className='text-con'>
                         <h1 className='description'>
-                        {text.split("").map((char, index) => (
+                            {text.split("").map((char, index) => (
                                 <span key={index} style={{ animationDelay: `${index * 50}ms` }}>{char}</span>
-                            ))}                        </h1>
+                            ))}
+                        </h1>
                         <button className='cta-button' >
                             <Link to = "/projects" className='link-btn'>View My Work</Link>
                         </button>
