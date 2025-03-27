@@ -61,7 +61,6 @@ app.post("/send-email-message", async(request, response)=>{
     console.log("called API")
     const { Email, Name, Message } = request.body;
     try{
-
         await database.run(
             `INSERT INTO Contacts (email, name) VALUES (?, ?)`,
             [Email, Name]
@@ -80,4 +79,3 @@ app.post("/send-email-message", async(request, response)=>{
         response.status(500).json({ message: "Failed to send Mail. Try again." });
       }
 })
-

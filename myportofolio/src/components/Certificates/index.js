@@ -111,9 +111,7 @@ const Certificates = () => {
         })
       }
     </ul>
-      
-
-
+    
       <Lightbox
         open={open}
         close={() => setOpen(false)}
