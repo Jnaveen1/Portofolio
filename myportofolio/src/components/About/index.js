@@ -28,7 +28,7 @@ class About extends Component {
                     </div>
                     <div className='cta-container'>
                         <button className='cta-button' onClick={() => window.open('https://www.linkedin.com', '_blank')}>Connect with Me</button>
-                        <button className='cta-button' onClick={() => window.open('/certificates/resume2.pdf')}>Check Resume</button>
+                        <button className='cta-button' onClick={() => window.open('/certificates/Venkata-Naveen-Kumar-Janapati-Resume.pdf')}>Check Resume</button>
                     </div>
                 </div>
             </div>
